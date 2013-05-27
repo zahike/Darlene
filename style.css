@@ -1,0 +1,144 @@
+ *{margin:0;padding:0;}
+body{
+background-color:#f2f2f2;
+}
+.wrapper{
+width:1024px;
+height:800px;
+margin:0px auto;
+}
+/* &&&&&&&&&&&&&&&&& LOGO &&&&&&&&&&&&&&&&&&&&& */
+.homelogo{
+width:1024px;
+height:464px;
+background:url('images/blankhomepage.jpg') top left no-repeat;
+}
+.logo{
+width:1024px;
+height:126px;
+background:url('images/headingall.jpg') top left no-repeat;
+}
+/* &&&&&&&&&&&&&&&&& end LOGO &&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&& TOP MENU &&&&&&&&&&&&&&&&&&&&& */
+.top_menu{
+width:1024px;
+height:40px;
+background-color:#c0c0c0;
+}
+.top_menu ul{
+list-style:none;
+z-index:2;
+position:relative;
+}
+.top_menu ul li.title{
+padding:0 10px 0 10px;
+float:left;
+text-align:left;
+}
+.top_menu ul li a{
+Direction:ltr;
+}
+.top_menu ul li a{
+color:#1170ff;
+font-size:23px;
+font-family:arial;
+font-weight:bold;
+line-height:40px;
+text-decoration:none;
+}
+.top_menu ul li a:hover{
+color:#000080;
+}
+ul.menu_inner{
+display:none;
+list-style:none;
+}
+.top_menu ul li.title:hover ul.menu_inner{
+display:block;
+position:absolute;
+/*bottom:0px;*/
+}
+/* &&&&&&&&&&&&&&&&& end TOP MENU &&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&& SIDE MENU &&&&&&&&&&&&&&&&&&&&& */
+.side_menu{
+width:184px;
+float:left;
+/*height:40px;*/
+background-color:#c0c0c0;
+}
+.side_menu ul{
+list-style:none;
+z-index:2;
+position:relative;
+}
+.side_menu ul li.title{
+padding:0 10px 0 10px;
+text-align:left;
+}
+.side_menu ul li a{
+Direction:ltr;
+}
+.side_menu ul li a{
+color:#1170ff;
+font-size:23px;
+font-family:arial;
+font-weight:bold;
+line-height:40px;
+text-decoration:none;
+}
+.side_menu ul li a:hover{
+color:#000080;
+}
+ul.menu_inner{
+display:none;
+list-style:none;
+}
+.side_menu ul li.title:hover ul.menu_inner{
+display:block;
+position:absolute;
+}
+/* &&&&&&&&&&&&&&&&& end SIDE MENU &&&&&&&&&&&&&&&&&&&&& */
+.box{
+width:1024px;
+height:600px;
+margin:0px auto;
+/*position:relative;
+z-index:-1;*/
+}
+.pic_box{
+width:600px;
+height:450px;
+margin:0 auto;
+border:5px solid #000;
+}
+/*.prev_button{
+position:absolute;
+top:200px;
+left:30px;
+width:50px;
+height:50px;
+background:transparent url('images/prev_arrow_op.png') top left no-repeat;
+border:none;
+display:none;
+}
+.next_button{
+position:absolute;
+top:200px;
+right:30px;
+width:50px;
+height:50px;
+background:transparent url('images/next_arrow_op.png') top left no-repeat;
+border:none;
+display:none;
+}
+*/
+.box ul.index_cells{
+list-style:none;
+}
+.box ul.index_cells li{
+width:140px;
+height:150px;
+text-align:center;
+direction:ltr;
+float:left;
+}
